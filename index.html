@@ -21,11 +21,20 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+   <link rel="stylesheet" href="stylesheets/shadowbox.css">
     
     <link href='http://fonts.googleapis.com/css?family=Exo:400,700|Play:400,700' rel='stylesheet' type='text/css'>
     
     <script type="text/javascript" src="tooltip.js"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    
+    
+    <!-- Shadow box -->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="js/shadowbox.js"></script>
+
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -207,9 +216,7 @@ a.padilla@tecnioffi.com
     <div class="container">
         <div class="sixteen columns">
         
-            <div>Somos la mejor empresa dedicada a la venta y distribucion de insumos para oficina. </div>
-            
-            <div><br>Comunícate con nosotros</div>
+            <div>Somos la mejor empresa dedicada a la venta y distribucion de insumos para oficina. <br>Comunícate con nosotros</div>
             
         </div>
     </div>
@@ -221,8 +228,18 @@ a.padilla@tecnioffi.com
         <div class="four columns offset-by-six">
             <img src="images/tecnioffiW.png">
         </div>
+        <div class="four columns offset-by-six">
+            <div id="aviso"><a href="aviso.html" rel="shadowbox[Demo]">Aviso de privacidad</a></div>
+        </div>
     </div>
 </div>
+   
+   <script type="text/javascript">
+
+    Shadowbox.init();
+
+    </script>
+
     
     
 
