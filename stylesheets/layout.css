@@ -1,0 +1,442 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+html {
+ /*position: relative;*/
+ margin: 0px;
+ padding: 0px;
+}
+
+img{
+	width: 100%;
+}
+
+a {text-decoration: none; color: #fff;}
+a hover{color: #fff;}
+a:active {color: #fff; text-decoration: underline; }
+a:visited {color: #fff; text-decoration: underline; }
+
+/* Estilos principales
+================================================== */
+
+/* Menu
+================================================== */
+#menuSuperior{
+    background-color: #58595B;
+    height: 50px;
+}
+
+#menu{
+    padding: 10px;
+    margin: 0;
+}
+
+#menu li{
+    float: left;
+    padding: 10px;
+    color: #fff;
+}
+
+/* Presentacion y slogan
+================================================== */
+#presentacion{
+    background: url(../images/edificios.png) bottom repeat-x #E6E6E6;
+    height: 550px;
+    padding-top: 50px;
+}
+
+#edificios{
+    padding-top: 251px;
+}
+
+#slogan{
+    background-color: #027A8E;
+    height: 50px;
+    padding-top: 25px;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+/* Somos
+================================================== */
+#somos{
+    background-color: #0092B2;
+    color: #fff;
+    padding: 60px 0;
+}
+#titulos{
+    padding-top: 50px;
+    font-size: 3em;
+}
+#titulos2{
+    padding-top: 20px;
+    font-size: 3em;
+}
+#descripcionSomos{
+    margin-top: 15px;
+}
+#remateSomos{
+    padding-top: 125px;
+    font-size: 1.3em;
+}
+/* Servicios
+================================================== */
+#servicios{
+    background-color: #E6E6E6;
+    color: #58595B;
+    text-align: center;
+    padding: 20px;
+}
+
+#servicio{
+    margin: 40px 0;
+}
+
+#servicioB{
+    margin: 80px 0;
+}
+#descripcionServicio{
+    font-size: 1.5em;
+}
+
+#opcion{
+    background-color: #03B8D6;
+    padding:50px;
+    color: #fff;
+}
+#descripcionOpcion{
+    padding-top: 15px;
+    font-size: 1em;
+}
+/* Contacto
+================================================== */
+#contacto{
+    padding: 30px;
+    background-color: #58595B;
+    color: #fff;
+}
+#representacion{
+    padding: 20px;
+    background-color: #D67A1E;
+    text-align: center;
+    color: #fff;
+}
+#marca{
+    background-color: #F7931E;
+}
+
+/* TOOLTIP -------------------------------------------------------------------------------*/
+
+#tooltip {
+	position:absolute;
+	z-index:9999;
+	color:#000;
+	font:90% Verdana, Arial, Helvetica, sans-serif;
+	width:180px;
+}
+
+#tooltip .tipHeader {
+	height:8px;
+	background:url(../images/tipHeader.gif) no-repeat;
+}
+
+
+#tooltip .tipBody {
+	background-color:#f2c13e;
+	padding:2px 2px 2px 15px;
+}
+
+#tooltip .tipFooter {
+	height:8px;
+	background:url(../images/tipFooter.gif) no-repeat;
+}
+
+
+/* #Page Styles
+================================================== */
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+        
+        #presentacion{
+            background: url(../images/edificios3.png) bottom repeat-x #E6E6E6;
+            height: 390px;
+            padding-top: 54px;
+        }
+        #edificios{
+            padding-top: 145px;
+        }
+        #slogan{
+            height: 50px;
+            padding-top: 20px;
+            font-size: 2.2em;
+        }
+        #somos{
+            padding: 20px 0;
+            text-align: justify;
+        }
+        #titulos{
+            padding-top: 10px;
+            font-size: 2.5em;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 3em;
+        }
+        #descripcionSomos{
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+        #remateSomos{
+            padding-top: 180px;
+            font-size: 1.3em;
+        }
+        #servicio{
+            margin: 20px 0;
+        }
+
+        #servicioB{
+            margin: 40px 0
+        }
+        #descripcionServicio{
+            font-size: 1.3em;
+            line-height: 1em;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        
+    }
+    }
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+        #menuSuperior{
+            display: none;
+        }
+        #presentacion{
+            background: url(../images/edificios4.png) bottom repeat-x #E6E6E6;
+            height: 360px;
+            padding-top: 20px;
+        }
+        #edificios{
+            padding-top: 145px;
+        }
+        #slogan{
+            height: 55px;
+            padding-top: 10px;
+            font-size: 1.8em;
+        }
+        #somos{
+            padding: 20px 0;
+            text-align: justify;
+        }
+        #titulos{
+            padding-top: 10px;
+            font-size: 2.2em;
+            text-align: center;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 3em;
+        }
+        #descripcionSomos{
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+        #remateSomos{
+            padding-top: 200px;
+            font-size: 1.3em;
+        }
+        #servicio{
+            margin: 0;
+        }
+
+        #servicioB{
+            margin: 0;
+        }
+        #descripcionServicio{
+            font-size: 2.5em;
+            line-height: 1em;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        
+    }
+    }
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+        #menuSuperior{
+            display: none;
+        }
+        #presentacion{
+            background: url(../images/edificios4.png) bottom repeat-x #E6E6E6;
+            height: 360px;
+            padding-top: 20px;
+        }
+        #edificios{
+            padding-top: 145px;
+        }
+        #slogan{
+            height: 55px;
+            padding-top: 10px;
+            font-size: 1.8em;
+        }
+        #somos{
+            padding: 20px 0;
+            text-align: justify;
+        }
+        #titulos{
+            padding-top: 10px;
+            font-size: 2.2em;
+            text-align: center;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 3em;
+        }
+        #descripcionSomos{
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+        #remateSomos{
+            padding-top: 200px;
+            font-size: 1.3em;
+        }
+        #servicio{
+            margin: 0;
+        }
+
+        #servicioB{
+            margin: 0;
+        }
+        #descripcionServicio{
+            font-size: 2.5em;
+            line-height: 1em;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+    
+        #menuSuperior{
+            display: none;
+        }
+        #slogan{
+            background-color: #027A8E;
+            height: 55px;
+            padding-top: 10px;
+            font-size: 1.5em;
+            text-align: center;
+            color: #fff;
+        }
+        #presentacion{
+            background: url(../images/edificios4.png) bottom repeat-x #E6E6E6;
+            height: 300px;
+            padding-top: 20px;
+        }
+
+        #edificios{
+            padding-top: 145px;
+        }
+        
+        #somos{
+            padding: 20px 0;
+            text-align: justify;
+        }
+        #titulos{
+            padding-top: 10px;
+            font-size: 2em;
+            text-align: center;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 3em;
+        }
+        #descripcionSomos{
+            margin-top: 15px;
+            font-size: .9em;
+        }
+        #remateSomos{
+            padding-top: 220px;
+            font-size: 1.3em;
+        }
+        #servicio{
+            margin: 0;
+        }
+
+        #servicioB{
+            margin: 0;
+        }
+        #descripcionServicio{
+            font-size: 2em;
+        }
+        #titulos2{
+            padding-top: 20px;
+            font-size: 2em;
+            text-align: center;
+        }
+    
+    }
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
